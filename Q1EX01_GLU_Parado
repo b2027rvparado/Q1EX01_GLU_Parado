@@ -1,0 +1,23 @@
+public class Main {
+  public static void main(String[] args) {
+    String campus1 = "IRC";
+    String name1 = "Ilocos Regional Campus";
+    int budget_2024_1 = 142;
+    int budget_2025_1 = 223;
+    
+    String campus2 = "CARC";
+    String name2 = "Cordilliera Administrative Region Campus";
+    int budget_2024_2 = 193;
+    int budget_2025_2 = 141;
+    
+    String campus3 = "CLC";
+    String name3 = "Central Luzon Campus";
+    int budget_2024_3 = 132;
+    int budget_2025_3 = 148;
+    
+    System.out.println("\nCampus 1: " + campus1 + " \nCampus name: " + name1 + " \nBudget 2024 (in millions): " + budget_2024_1 + " \nBudget 2025 (in millions): " + budget_2025_1);
+    System.out.println("\nCampus 2: " + campus2 + " \nCampus name: " + name2 + " \nBudget 2024 (in millions): " + budget_2024_2 + " \nBudget 2025 (in millions): " + budget_2025_2);
+    System.out.println("\nCampus 3: " + campus3 + " \nCampus name: " + name3 + " \nBudget 2024 (in millions): " + budget_2024_3 + " \nBudget 2025 (in millions): " + budget_2025_3);
+    System.out.println("\nTotal 2024 budget (in millions): " + (budget_2024_1 + budget_2024_2 + budget_2024_3) + " \nTotal 2025 budget (in millions): " + (budget_2025_1 + budget_2025_2 + budget_2025_3) + " \nTotal budgets the same: " + ((budget_2024_1 + budget_2024_2 + budget_2024_3)==(budget_2025_1 + budget_2025_2 + budget_2025_3)));
+  }
+}
